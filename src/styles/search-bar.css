@@ -1,0 +1,34 @@
+.search {
+  width: 100%;
+}
+
+.form_input {
+  position: relative;
+}
+
+.search_input {
+  padding: 10px 30px 10px 15px; /* Penambahan padding di sebelah kanan untuk memberikan ruang bagi ikon */
+  border: 2px solid #ccc;
+  border-radius: 20px; /* Membuat input dengan sudut yang lebih lembut */
+  font-size: 16px;
+  transition: all 0.3s ease; /* Efek transisi untuk perubahan properti input */
+  width: 100%;
+}
+
+.search_input:focus {
+  border-color: #007bff; /* Warna border saat input dalam fokus */
+  outline: none;
+}
+
+.search_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%); /* Pusatkan ikon vertikal pada input */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Efek transisi warna ikon saat hover */
+}
+
+.search_icon:hover {
+  color: #007bff; /* Warna ikon saat dihover */
+}
